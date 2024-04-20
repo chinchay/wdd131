@@ -1,0 +1,65 @@
+body{
+    border-style: solid;
+    border-color: darkgray;
+    border-width: 1px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    
+
+
+    margin-left: 500px;
+    margin-right: 500px;
+
+}
+
+h1, h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h2{
+    color: #006EB6;
+    font-size: medium;
+    font-weight: normal;
+    letter-spacing: 4px;
+    border-bottom: solid lightgray 1px;
+    margin-bottom: 50px;
+}
+
+header{
+    text-align: center;
+}
+
+.content{
+    /* border-style: solid; */
+    /* border-color: red; */
+    max-width: 600px;
+    margin: 100px;
+    line-height: 1.5;
+
+}
+
+.transition{
+    font-style: italic;
+    /* line-height: 1.5; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.goalList{
+    padding-left: 25px;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
